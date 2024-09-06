@@ -12,12 +12,12 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7427875913:AAECLn_AjdTMSizPFEnHQPwm8G855Hi2EIY")  # ⚠️ Required
 
     # database config
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://madarazbotz:PIxkrEpWc8KhiUci@cluster0.ispey.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Required
     DB_NAME = os.environ.get("DB_NAME", "cluster0")
 
     # other configs
     BOT_UPTIME = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/0ceb5f176f3cf877a08b5.jpg")
+    START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/3fdd20984777d4380f854.jpg")
     ADMIN = int(os.environ.get('ADMIN', '5340652544'))  # ⚠️ Required
     DEFAULT_WELCOME_MSG = os.environ.get("WELCOME_MSG", "Hey {user},\nYour Request Approved ✅,\n\nWelcome to **{title}**")
     DEFAULT_LEAVE_MSG = os.environ.get("LEAVE_MSG", "By {user},\nSee You Again 👋\n\nFrom **{title}**")
@@ -48,5 +48,5 @@ class TxT(object):
 ⚠️ <b> Support HTML & Markdown formating in welcome or leave message for more info <a href=https://core.telegram.org/api/entities#:~:text=%2C%20MadelineProto.-,Allowed%20entities,-For%20example%20the> Link </a>. </b>
 
 
-<b>⦿ Developer:</b> <a href=https://t.me/Snowball_Official>ѕησωвαℓℓ ❄️</a>
+<b>⦿ Developer:</b> <a href=https://t.me/unreal_x_bot>ᴜɴʀᴇᴀʟ ʙᴏᴛ ❄️</a>
 """
